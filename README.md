@@ -1,2 +1,2 @@
-# componentesKP
-Practica con Angular y Ionic
+# examen-app-moviles-Pazan
+
