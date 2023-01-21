@@ -13,7 +13,8 @@ export class AlertPage {
 
   async presentAlert() {
     const alert = await this.alertController.create({
-      header: 'Guarde su informacion',
+      backdropDismiss:false,
+      header: 'Ingrese su informacion',
       buttons: ['OK','CANCEL'],
       inputs: [
         {
@@ -27,7 +28,7 @@ export class AlertPage {
           type: 'textarea',
         },
         {
-          placeholder: 'Ingresa una url',
+          placeholder: 'Ingrese una url',
           type: 'url',
         },
         {
